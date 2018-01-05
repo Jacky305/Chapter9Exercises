@@ -1,0 +1,6 @@
+C:\Users\Jacky\Desktop\Microsoft Visual C# 2010_ An Introductio - Joyce Farrell\Chapter 9 Exercises\Chapter9\Chapter9\bin\Debug\Chapter9.exe.config
+C:\Users\Jacky\Desktop\Microsoft Visual C# 2010_ An Introductio - Joyce Farrell\Chapter 9 Exercises\Chapter9\Chapter9\bin\Debug\Chapter9.exe
+C:\Users\Jacky\Desktop\Microsoft Visual C# 2010_ An Introductio - Joyce Farrell\Chapter 9 Exercises\Chapter9\Chapter9\bin\Debug\Chapter9.pdb
+C:\Users\Jacky\Desktop\Microsoft Visual C# 2010_ An Introductio - Joyce Farrell\Chapter 9 Exercises\Chapter9\Chapter9\obj\Debug\Chapter9.csprojResolveAssemblyReference.cache
+C:\Users\Jacky\Desktop\Microsoft Visual C# 2010_ An Introductio - Joyce Farrell\Chapter 9 Exercises\Chapter9\Chapter9\obj\Debug\Chapter9.exe
+C:\Users\Jacky\Desktop\Microsoft Visual C# 2010_ An Introductio - Joyce Farrell\Chapter 9 Exercises\Chapter9\Chapter9\obj\Debug\Chapter9.pdb

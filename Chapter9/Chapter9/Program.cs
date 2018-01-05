@@ -10,7 +10,7 @@ namespace Chapter9
     {
         static void Main(string[] args)
         {
-            DemoScouts.Run(args);
+            TaxPayerDemo.Run(args);
         }
     }
 }

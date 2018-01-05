@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Chapter9
 {
-    class TaxPayer
+    class TaxPayer: IComparable
     {
         public string SocialNumber { get; set; }
         public double YearlyGrossIncome { get; set; }
@@ -35,6 +35,22 @@ namespace Chapter9
             }
             
             return (int)tempTax;
+        }
+
+        int IComparable.CompareTo(object obj)
+        {
+            int returnVal;
+
+            TaxPayer temp = (TaxPayer)obj;
+            if (this.taxOwed > temp.taxOwed)
+                returnVal = 1;
+            else
+                if (this.taxOwed < temp.taxOwed)
+                    returnVal = -1;
+                else
+                    returnVal = 0;
+
+            return returnVal;
         }
     }
 }

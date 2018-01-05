@@ -19,12 +19,22 @@ namespace Chapter9
                 taxArray[x] = new TaxPayer(int.Parse(Console.ReadLine()));
             }
 
-            Console.WriteLine("\n----------------------------");
+            Console.WriteLine("\n---------------------------------------------");
             Console.WriteLine("Details:\n");
             foreach (TaxPayer person in taxArray)
             {
-                Console.WriteLine("GrossIncome: {0}\n", person.YearlyGrossIncome);
-                Console.WriteLine("Tax owed: {0}",person.TaxOwed);
+                Console.WriteLine("GrossIncome: {0}", person.YearlyGrossIncome);
+                Console.WriteLine("Tax owed: {0}\n",person.TaxOwed);
+            }
+
+            //Sort based on tax owed
+            Array.Sort(taxArray);
+            Console.WriteLine("\n---------------------------------------------");
+            Console.WriteLine("Sorted list: Lowest tax to highest tax.");
+            foreach (TaxPayer person in taxArray)
+            {
+                Console.WriteLine("GrossIncome: {0}", person.YearlyGrossIncome);
+                Console.WriteLine("Tax owed: {0}\n", person.TaxOwed);
             }
         }
     }

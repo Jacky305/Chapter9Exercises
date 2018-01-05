@@ -44,7 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Circle.cs" />
+    <Compile Include="DemoScouts.cs" />
     <Compile Include="DemoSquares.cs" />
+    <Compile Include="GirlScout.cs" />
     <Compile Include="Pizza.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -10,7 +10,7 @@ namespace Chapter9
     {
         static void Main(string[] args)
         {
-            DemoSquares.Run(args);
+            DemoScouts.Run(args);
         }
     }
 }

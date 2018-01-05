@@ -8,9 +8,11 @@ namespace Chapter9
 {
     class TaxPayer: IComparable
     {
-        public string SocialNumber { get; set; }
-        public double YearlyGrossIncome { get; set; }
-        private int taxOwed { get; set; }
+        private string socialNumber;
+        public string SocialNumber { get { return socialNumber; } set { socialNumber = value; } }
+        private double yearlyGrossIncome;
+        public double YearlyGrossIncome { get { return yearlyGrossIncome; } set { yearlyGrossIncome = value; } }
+        private int taxOwed;
         public int TaxOwed { get { return taxOwed; } }
         
         public TaxPayer() : this(1)

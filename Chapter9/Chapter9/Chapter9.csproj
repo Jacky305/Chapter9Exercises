@@ -46,6 +46,8 @@
     <Compile Include="Circle.cs" />
     <Compile Include="DemoScouts.cs" />
     <Compile Include="DemoSquares.cs" />
+    <Compile Include="Friend.cs" />
+    <Compile Include="FriendsList.cs" />
     <Compile Include="GirlScout.cs" />
     <Compile Include="Pizza.cs" />
     <Compile Include="Program.cs" />

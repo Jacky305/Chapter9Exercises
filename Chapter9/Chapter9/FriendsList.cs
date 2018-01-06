@@ -55,6 +55,16 @@ namespace Chapter9
                 Console.WriteLine("{0} does not exist.", tempString);
             else
                 Console.WriteLine("{0}'s birthday is {1}", friendsList[index].Name, friendsList[index].Birthday);
+
+            //Display friends with same birthday
+            foreach(Friend friend in friendsList)
+            {
+                if (friend.Birthday == tempFriend.Birthday)
+                {
+                    if (friend.Name == tempFriend.Name) { }
+                    else Console.WriteLine("{0} has the same birthday!", friend.Name);
+                }
+            }
         }
     }
 }

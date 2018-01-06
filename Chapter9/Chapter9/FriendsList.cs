@@ -31,6 +31,30 @@ namespace Chapter9
             {
                 Console.WriteLine("{0}", friend.Name);
             }
+
+            //Binary Search
+            Console.WriteLine("\n------------------------------------------");
+            Console.WriteLine("Enter friend name to find their birth date:");
+
+            string tempString;
+            Friend tempFriend = new Friend();
+            tempString = Console.ReadLine();
+            
+            foreach(Friend friend in friendsList)
+            {
+                //Compare name
+                if (friend.Name == tempString)
+                {
+                    tempFriend = friend;
+                    break;
+                }
+            }
+
+            int index = Array.BinarySearch(friendsList, tempFriend); //Returns an index
+            if (index < 0)
+                Console.WriteLine("{0} does not exist.", tempString);
+            else
+                Console.WriteLine("{0}'s birthday is {1}", friendsList[index].Name, friendsList[index].Birthday);
         }
     }
 }
